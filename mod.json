@@ -1,0 +1,16 @@
+{
+    "Name": "KDKick",
+    "Description": "萌新服专用！可以自定义踢出的阈值和分阶段不同阈值！",
+    "Authors": [ "LightBlueCube" ],
+    "LoadPriority": 101,
+    "RequiredOnClient": false,
+    "Scripts": [
+        {
+            "Path": "KDKick.nut",
+            "RunOn": "SERVER && MP",
+            "ServerCallback": {
+                "After": "KDKick_Init"
+            }
+        }
+    ]
+}
